@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.6.1\fontawesome-free\css\all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/loader.css"> -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="animate-master/animate.css">
+    <!-- <link rel="stylesheet" href="animate-master/animate.min.css"> -->
+    
+    <!-- <link rel="stylesheet" href="loader.css">  -->
+    <!-- <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="styling.css"> -->
+
+</head>
+<body>
+    <!--page loader -->
+
+    <!-- <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div> -->
+
+    <!-- <div class="main"> -->
+        <!---navigation bar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-success sticky-top">
+            <img class="image" src="images/logo3d.png" width="70" height="70"><a href="index.html" class="navbar-brand"> Hotel Management System</a>
+           <!--add a toggle button here-->
+           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+
+
+
+            <!--wrap ul with a collapse div-->
+
+            <div class="collapse  navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item active"><!--mr-auto is margin right-->
+                    <a href="index.html" class="nav-link" id="home">Home </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                
+                <li class="navbar-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                
+                <li class="navbar-item">
+                    <a href="Facilities.html" class="nav-link">Facilities</a>
+                </li>
+                
+                
+                <li class="navbar-item">
+                    <a href="booking.html" class="nav-link">Booking</a>
+                </li>
+                </ul>
+            </div>
+
+    </nav>
+          
+         <!---image slider-->
+
+         <div id="slides" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+                <li data-target="#slides" data-slide-to="4"></li>
+                <li data-target="#slides" data-slide-to="5"></li>
+
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/room.JPG">
+                    <div class="carousel-caption">
+                        <h2 class="display-3 animated bounceInLeft">Hotel Reservation System</h2>
+                        <h3 class="animated bounceInRight delay-1s">Well Funished</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg bounceInRight delay-1s">Make Reservation</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/rooms.JPG">
+                    <div class="carousel-caption">
+                            <h2 class="display-3 bounceInLeft delay-1s">Hotel Reservation System</h2>
+                        <h3 class="animated flipInY delay-1s">Rooms That Meets Your Standard</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg animated bounce">Make Reservation</button></a>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bennyservice.JPG">
+                    <div class="carousel-caption">
+                            <h2 class="display-3 animated bounceInRight delay-1s">Hotel Reservation System</h2>
+                        <h3 class="animated bounceInLeft delay-1s">Standard Service</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg animated bounce delay-1s">Make Reservation</button></a>
+                        </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/rum.JPG">
+                    <div class="carousel-caption">
+                            <h2 class="display-3 animated bounceInRight delay-1s">Hotel Reservation System</h2>
+                        <h3 class="animated bounceInLeft delay-1s">Fully Airconditioned</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg animated flipInY delay-1s">Make Reservation</button></a>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bennyoutside.JPG">
+                    <div class="carousel-caption">
+                            <h2 class="display-3 animated bounceInRight delay-1s">Hotel Reservation System</h2>
+                        <h3 class="animated bounceInLeft delay-1s">Beautiful Environment</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg animated flipInX delay-1s ">Make Reservation</button></a>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bathtube.JPG">
+                    <div class="carousel-caption">
+                            <h2 class="display-3 animated bounceInLeft delay-1s">Hotel Reservation System</h2>
+                        <h3 class="animated flipInX delay-1s">Standard BathRoom</h3>
+                        <!-- <button type="button" class="btn btn-outline-light btn-lg">View Our Content</button> -->
+                       <a href="#"> <button type="button" class="btn btn-primary btn-lg animated bounce delay-1s">Make Reservation</button></a>
+                        </div>
+                </div>
+            </div>
+
+
+         </div>
+         <div class="jumbotron  animated fadeInUp delay-2s">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam exercitationem amet itaque
+             mollitia, necessitatibus suscipit fugit quod! Obcaecati ex harum ullam 
+            ipsam officia aliquid, consequatur expedita suscipit! Tempora facilis atque illo pariatur est blanditiis odit 
+            quas quisquam voluptatibus, ab tempore odio nihil perferendis praesentium? Explicabo nam ad tempora laboriosa m.</p>
+         </div>
+
+        
+         <!-- gallery -->
+<p>&nbsp;</p>
+<div class="container">
+   
+    <h3 id="gallery">  <span class="fa fa-images ml-3 fadeInDown"></span> <br> Gallery</h3>
+    <hr class="line1">
+    <p>&nbsp;</p>
+    <div class="img-gallery" id="gallery">
+        <a href="images/fashion.jpg" data-lightbox="mygallery" data-title="asoebe"><img src="images/small.jpg"></a>
+        <a href="images/camera.jpeg"  data-lightbox="mygallery" data-title="camera"><img src="images/small-camera.jpeg"></a>
+        <a href="images/lady (1).jpeg"  data-lightbox="mygallery" data-title="recieptionist"><img src="images/lady (1)-small.jpeg"></a>
+        <a href="images/lady (2).jpg"  data-lightbox="mygallery" data-title="new students"><img src="images/students-small.jpg"></a>
+        <a href="images/lady (3).jpeg"  data-lightbox="mygallery" data-title="my lady"><img src="images/lady (3)-small.jpeg"></a>
+        <a href="images/lady (4).jpeg"  data-lightbox="mygallery" data-title="lady"><img src="images/lady (4)-small.jpeg"></a>
+        <a href="images/beach.jpg"  data-lightbox="mygallery" data-title="beach"><img src="images/beach-small.jpg"></a>
+        <a href="images/office.jpeg"  data-lightbox="mygallery" data-title="office"><img src="images/office-small.jpeg"></a>
+        <!-- <a href="images/1kinto.jpg"  data-lightbox="mygallery" data-title="zunanya kintoria"><img src="images/1kinto-small.jpg"></a> -->
+
+
+        
+    </div>
+     
+</div>
+
+<div class="container2">
+        <p>&nbsp;</p>
+        <div class="container">
+        
+            <h3 class=" animated bounceInLeft delay-3s">Events & Organizers</h3 c>
+            <p>We have Capable Hands and Proffessionals That Will Handle Your Events.</p>
+            <hr class="line1">
+
+            <div class="row padding">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top help  animated bounceInLeft delay-4s" src="images/freelancer.jpg" alt="">
+                            <div class="card-body fadeInDown">
+                                    <h4 class="card-title">Party</h4>
+                                    <p class="card-text">John is a proffessional party organizer with 5 years
+                                        experience .
+                                    </p>
+                                        <a href="#" class="btn btn-outline-secondary  animated fadeInUp delay-5s">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top  animated bounceInLeft delay-5s" src="images/office.jpeg" alt="office image">
+                                <div class="card-body">
+                                        <h4 class="card-title">Wedding Recieption</h4>
+                                        <p class="card-text">meet Johnny for every recieption photography he has 8 years
+                                            experience
+                                        </p>
+                                            <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top help  animated fadeInUp delay-s" src="images/laptop.jpg" alt="">
+                                    <div class="card-body ">
+                                            <h4 class="card-title">Jokes</h4>
+                                            <p class="card-text  animated bounceInLeft delay-4s">Jane is a designer with 6 years
+                                                experience she is on charge of all hall design and decorations.
+                                            </p>
+                                                <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+
+            </div>
+        
+
+    </div>
+
+    <!-- services -->
+<P>&nbsp;</P>
+    <div class="container-fluid">
+            <span class="fa fa-handshake"></span>
+            <h3>Services</h3>
+        
+            <hr class="line1">
+<br/>
+<div class="row padding">
+        
+        <div class="col-md-12 col-lg-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Velit obcaecati sed mollitia error modi soluta.</p>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+             quasi consectetur excepturi voluptatem accusamus perspiciatis, eaque cum tempore. Quo, minus odio. Cum, libero. Provident,
+             architecto! Doloribus recusandae distinctio deleniti est.</p>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+             quasi consectetur excepturi voluptatem accusamus perspiciatis, eaque cum tempore. Quo, minus odio. Cum, libero. Provident,
+             </p>
+             <!-- <a href ="#"class="btn btn-primary">Learn More</a> -->
+        </div>
+        <div class="col-lg-4">
+        <img src="images/freelancer.jpg" class="img-fluid">
+    </div>
+    </div>
+        </div>
+
+<!-- room booking -->
+        <P>&nbsp;</P>
+        <!-- <div class="row"> -->
+    <div class="container room-container">
+            
+            <hr class="line1">
+           <h2> <i class="fas fa-address-book"></i><br/>Room Booking</h2>
+<div class="booking">
+<img class="roombooking" title="price:#9500"src="images/room.JPG"><br/>
+<h4 class="exeroom">Executive <br>Room</h4>
+
+<div class="room-price">
+<p class="">Price:9500</p>
+<a href="bookNow.html"><button type="button" class="btn btn-outline-success">BOOK NOW</button></a>
+</div>
+    </div>
+<div class="booking">
+<img class="roombooking" title="price:#12000"src="images/rum.JPG"><br/>
+<h4 class="exeroom">Executive<br> Room</h4>
+
+<div class="room-price">
+<p class="">Price:12000</p>
+<a href="bookNow.html"><button type="button" class="btn btn-outline-success">BOOK NOW</button></a>
+</div>
+    </div>
+<div class="booking">
+<img class="roombooking" title="price:#20000"src="images/rum.JPG"><br/>
+<h4 class="exeroom">Executive <br> Room</h4>
+
+<div class="room-price">
+<p class="">Price:20000</p>
+<a href="bookNow.html"><button type="button" class="btn btn-outline-success">BOOK NOW</button></a>
+</div>
+    </div>
+
+
+    </div>
+
+
+    <hr>
+
+    <P>&nbsp;</P>
+    <div class="container-fluid">
+            <span class="fa fa-binoculars"></span>
+            <h3>Our Vision</h3>
+        
+            <hr class="line1">
+<br/>
+<div class="row padding">
+        
+        <div class="col-md-12 col-lg-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Velit obcaecati sed mollitia error modi soluta.</p>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+             quasi consectetur excepturi voluptatem accusamus perspiciatis, eaque cum tempore. Quo, minus odio. Cum, libero. Provident,
+             architecto! Doloribus recusandae distinctio deleniti est.</p>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+             quasi consectetur excepturi voluptatem accusamus perspiciatis, eaque cum tempore. Quo, minus odio. Cum, libero. Provident,
+             </p>
+             <!-- <a href ="#"class="btn btn-primary">Learn More</a> -->
+        </div>
+        <div class="col-lg-4">
+        <img src="images/freelancer.jpg" class="img-fluid">
+    </div>
+    </div>
+        </div>
+<hr>
+<!-- social conect -->
+<div class="container-fluid padding fadeInUp">
+        <div class="row text-center padding">
+               <div class="col-12">
+                   <h2>Social</h2>
+               </div>
+               <div class="col-12 social padding">
+              
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-whatsapp"></i></a>
+           </div>
+        </div>
+    </div>
+
+
+
+    <!-- offices -->
+
+    <p>&nbsp;</p>
+    <footer>
+    <div class="row footer " id="contact">
+            <div class="col col-lg-12  col-sm-12 ">
+                <h3 class="footer-header">OUR BRANCHES</h3>
+                <p>&nbsp;</p><hr>
+            </div>
+        </div>
+        
+		<div class="row footer">
+
+
+			
+
+
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Head Office</h4>
+				<ul class="list-w3">
+					<li><span class="fa mr-1 fa-map-marker"></span>No 12 mile 1 Portharcourt,Rivers State, Nigeria.</li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 00000000 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href=mailto:hr@blessedtrustcs.com? subject="Application">Email Us</a></li>
+				</ul>
+			</div>
+			
+            
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Awka</h4>
+				<ul class="list-w3">
+					<li><span class="fa mr-1 fa-map-marker"></span> No 14 Ziks Avenue 9 mobile Building Awka, Anambra State</li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 0000000000 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href=mailto:hr@blessedtrustcs.com? subject="Application">Email Us</a></li>
+				</ul>
+			</div>
+            
+            
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Owerri</h4>
+				<ul class="list-w3">
+					<li><span class="fa mr-1 fa-map-marker"></span>No. 83 Venn Road South By Modebe Avenue, Odoakpu Onitsha Anambra</li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 0000000000 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href=mailto:hr@blessedtrustcs.com? subject="Application">Email Us</a></li>
+				</ul>
+			</div>
+            
+            
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Abuja</h4>
+				<ul class="list-w3">
+					<li><span class="fa mr-1 fa-map-marker"></span>James & Abigail Mall By Afor Nkpor Old Enugu/ Onitsha Road Nkpor</li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 0000000000 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href=mailto:hr@blessedtrustcs.com? subject="Application">Email Us</a></li>
+				</ul>
+			</div>
+		</div>
+       
+        <div class="row footer">
+         
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Hours of Work</h4>
+				<ul class="list-w3">
+					<li><span class="fa mr-1 fa-map-marker"></span>Monday-Sunday:7am-6pm Morning</li>
+					<li><span class="fa mr-1 fa-map-marker"></span>Monday-Sunday:6pm-7am Night</li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 00000000 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href=mailto:hr@blessedtrustcs.com? subject="Application">Email Us</a></li>
+				</ul>
+			</div>
+<!-- social media links -->
+			<div class="col-lg-3 col-sm-6 footer-top">
+				<!-- <h4 class="mb-sm-4 mb-3 w3f_title">Electrical Branch </h4> -->
+				<ul class="list-w3">
+					
+					<!-- <li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 8037528387 </li>
+					<li class="my-2"><span class="fa mr-1 fa-phone"></span>(234) 7030788603 </li>
+					<li class=""><span class="fa mr-1 fa-envelope"></span><a href="hr.blessedtrust@gmail.com">hr.blessedtrust@gmail.com</a></li> -->
+					<!-- <li><span class="fa mr-1 fa-facebook"></span></li> -->
+				</ul>
+			</div>
+            
+        </div>
+	
+	<!-- //footer bottom -->
+</footer>
+<!-- //footer -->
+
+<!-- copyright -->
+<section class="copy-right py-4">
+	<div class="container">
+        <!-- <hr style="color:grey;"> -->
+		<div class="row">
+			<div class="col-lg-7">
+				<p class="#">Hotel Management © 2019 All rights reserved
+				</p>
+			</div>
+			<div class="col-lg-5">
+				<ul class="list-w3 d-sm-flex">
+					<li>
+		
+						<a href="#">
+							Privacy Policy
+						</a>
+					</li>
+					<li class="">
+                        <!-- mx-4 -->
+						<a href="#">
+							Terms & Conditions
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Disclaimer
+						</a>
+					</li>
+					<li>
+						<!-- <a href="https://www.facebook.com/BlessedTrustServices/">
+						<i class="fab ml-3 fa-facebook"
+						style="font-size:30px;color:#fff;background-color:#3b5998;border-radius:5px;"> -->
+					</i>
+					
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- </div> -->
+<!-- //copyright -->
+
+<!-- move top -->
+<!-- <div class="move-top text-right">
+	<a href="#navbarmenu" class="move-top"> 
+		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+	</a>
+</div> -->
+<!-- move top -->
+
+<!--jquery-->
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="js/main1.js"></script>
+
+</body>
+</html>
